@@ -26,7 +26,7 @@ Konfiguracja harmonogramu polega na dodawaniu kolejnych **wydarzeń** (prelekcji
 ## Jak dodać wydarzenie?
 
 1. W menu przedstawionym w sekcji [Konfiguracja aplikacji](Konfiguracja-aplikacji.md#nawigacja-po-platformie-firebase) wybierz `Firestore Database`
-2. Wybierz zakładkę events, powinieneś mieć taki widok:
+2. Wybierz zakładkę `events`, powinieneś mieć taki widok:
    ![events.png](events.png)
 3. Kliknij `+ Add document`, powinno otworzyć ci się okienko
 4. Wybierz `Auto-ID` i uzupełnij wszystkie pola (możesz w tym okienku uzupełnić jedno, i potem z normalnego widoku dodać resztę)

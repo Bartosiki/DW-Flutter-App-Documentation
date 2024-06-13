@@ -12,5 +12,6 @@
         <toc-element topic="Zadania.md"/>
         <toc-element topic="Partnerzy.md"/>
         <toc-element topic="Patroni.md"/>
+        <toc-element topic="Kolor.md"/>
     </toc-element>
 </instance-profile>

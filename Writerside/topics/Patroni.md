@@ -28,7 +28,7 @@ Dodanie patrona oprócz samego uzupełnienia `Firestore Database` wymaga równie
    ![patrons-storage.png](patrons-storage.png)
 4. Zdjęcie powinno zostać wrzucone, teraz należy uzupełnić bazę
 5. W menu przedstawionym w sekcji [Konfiguracja aplikacji](Konfiguracja-aplikacji.md#nawigacja-po-platformie-firebase) wybierz `Firestore Database`
-6. Wybierz zakładkę patrons, powinieneś mieć taki widok:
+6. Wybierz zakładkę `patrons`, powinieneś mieć taki widok:
    ![patrons-firestore.png](patrons-firestore.png)
 3. Kliknij `+ Add document`, powinno otworzyć ci się okienko
 4. Wybierz `Auto-ID` i uzupełnij wszystkie pola (możesz w tym okienku uzupełnić jedno, i potem z normalnego widoku dodać resztę)
