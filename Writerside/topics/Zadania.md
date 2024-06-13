@@ -41,4 +41,4 @@ Konfiguracja harmonogramu polega na dodawaniu kolejnych **zadan QR** do listy za
 
 Edytowanie zadania przebiega w bardzo prosty sposób, możesz dowolnie edytować każde pole (pod warunkiem, że zgadza się ono z narzuconą strukturą).
 
-Chcąc usunąć zadanie, wystarczy w środkowej kolumnie znaleźć ten "dokument", który odpowiada wydarzeniu które chcesz usunąć. Po najechaniu na niego możesz kliknąć trzy kropki i wybrać `Delete document`. 
+Chcąc usunąć zadanie, wystarczy w środkowej kolumnie znaleźć ten "dokument", który odpowiada zadaniu które chcesz usunąć. Po najechaniu na niego możesz kliknąć trzy kropki i wybrać `Delete document`. 

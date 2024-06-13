@@ -10,5 +10,7 @@
     <toc-element topic="Konfiguracja-aplikacji.md">
         <toc-element topic="Harmonogram.md"/>
         <toc-element topic="Zadania.md"/>
+        <toc-element topic="Partnerzy.md"/>
+        <toc-element topic="Patroni.md"/>
     </toc-element>
 </instance-profile>
