@@ -7,5 +7,8 @@
                  start-page="o-aplikacji.md">
 
     <toc-element topic="o-aplikacji.md"/>
-    <toc-element topic="Konfiguracja-aplikacji.md"/>
+    <toc-element topic="Konfiguracja-aplikacji.md">
+        <toc-element topic="Harmonogram.md"/>
+        <toc-element topic="Zadania.md"/>
+    </toc-element>
 </instance-profile>
