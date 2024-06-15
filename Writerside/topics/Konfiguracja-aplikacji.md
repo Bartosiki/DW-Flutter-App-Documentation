@@ -98,21 +98,25 @@ Co w aplikacji jest konfigurowalne?
    </p>
 </procedure>
 
-![events-firestore.png](events-firestore.png)
+<seealso style="cards">
 
-## How to perform a task
 
-Some introductory information.
+    <category ref="app-config">
 
-1. Step with a code block
 
-   ```bash
-    run this --that
-   ```
+<a href="Kolor.md"></a>
 
-2. Step with a [link](https://www.jetbrains.com)
 
-3. Step with a list.
-    - List item
-    - List item
-    - List item
+        <a href="https://plugins.jetbrains.com/plugin/20158-writerside/docs/markup-reference.html">Markup reference</a>
+
+
+        <a href="https://plugins.jetbrains.com/plugin/20158-writerside/docs/manage-table-of-contents.html">Reorder topics in the TOC</a>
+
+
+        <a href="https://plugins.jetbrains.com/plugin/20158-writerside/docs/local-build.html">Build and publish</a>
+
+
+    </category>
+
+
+</seealso>

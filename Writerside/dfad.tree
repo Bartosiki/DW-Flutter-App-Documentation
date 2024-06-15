@@ -4,8 +4,9 @@
 
 <instance-profile id="dfad"
                  name="DW Flutter App Docs"
-                 start-page="o-aplikacji.md">
+                 start-page="Start.topic">
 
+    <toc-element topic="Start.topic"/>
     <toc-element topic="o-aplikacji.md"/>
     <toc-element topic="Konfiguracja-aplikacji.md">
         <toc-element topic="Harmonogram.md"/>
