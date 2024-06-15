@@ -10,4 +10,8 @@
         <description>Created after removal of "Harmonogram" from DW Flutter App Docs</description>
         <accepts>Harmonogram.html</accepts>
     </rule>
+    <rule id="52eec703">
+        <description>Created after removal of "Zanim zaczniesz" from DW Flutter App Docs</description>
+        <accepts>Zanim-zaczniesz.html</accepts>
+    </rule>
 </rules>

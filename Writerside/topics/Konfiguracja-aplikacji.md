@@ -1,4 +1,4 @@
-# Konfiguracja aplikacji
+# Konfiguracja
 
 Aplikacja została stworzona w taki sposób, by mogła być wykorzystywana co roku podczas Dnia Wydziału EEIA. Jest ona
 konfigurowalna, co pozwala na dostosowanie jej do aktualnych potrzeb organizatorów wydarzenia.
@@ -97,26 +97,3 @@ Co w aplikacji jest konfigurowalne?
       Można skonfigurować mapy wydarzenia dla parteru oraz piętra.
    </p>
 </procedure>
-
-<seealso style="cards">
-
-
-    <category ref="app-config">
-
-
-<a href="Kolor.md"></a>
-
-
-        <a href="https://plugins.jetbrains.com/plugin/20158-writerside/docs/markup-reference.html">Markup reference</a>
-
-
-        <a href="https://plugins.jetbrains.com/plugin/20158-writerside/docs/manage-table-of-contents.html">Reorder topics in the TOC</a>
-
-
-        <a href="https://plugins.jetbrains.com/plugin/20158-writerside/docs/local-build.html">Build and publish</a>
-
-
-    </category>
-
-
-</seealso>

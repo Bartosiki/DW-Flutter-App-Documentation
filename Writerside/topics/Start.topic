@@ -5,16 +5,6 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="Start" id="Start">
 
-<!--    A section combines multiple topics dedicated to a specific subject.
-            Add a starting page to provide an overview of the topics in the section.
-            Start with two topics you want to promote in the <spotlight> group,
-            several important topics in the <primary> group (for example, where to start),
-            several less important topics in the <secondary> group (for example, more advanced topics),
-            and optionally add any other relevant topics in the <misc> group as cards and lists of links
-            (maybe related topics from other sections).
-            Only the spotlight section is limited to two topics.
-            For other groups, try to keep the number between 2 and 6, but you can add more if necessary.-->
-
     <section-starting-page>
         <title>Aplikacja Dzień WEEIA</title>
         <description>
@@ -23,86 +13,42 @@
 
         <spotlight>
             <a href="o-aplikacji.md" type="start" summary="Dowiedz się więcej o aplikacji">O aplikacji</a>
-            <a href="Konfiguracja-aplikacji.md" type="settings" summary="Sprawdź jak konfigurować aplikację">Konfiguracja aplikacji</a>
+            <a href="Konfiguracja-aplikacji.md" type="settings" summary="Sprawdź jak zacząć konfigurować aplikację">O
+                konfiguracji</a>
         </spotlight>
 
-<!--        <primary>-->
-<!--            <title>Get started</title>-->
-<!--            <a href=""/>-->
-<!--            <a href="" summary="With a custom card summary"/>-->
-<!--            <a href="">Custom card title</a>-->
-<!--            <a href="" summary="With a custom card summary">Custom card title</a>-->
-<!--        </primary>-->
+        <primary>
+            <title>Konfiguracja</title>
+            <a href="Zadania.md" summary="Zadania QR, które uczestnicy będą musieli wykonać, aby zdobyć punkty.">📷
+                Zadania QR
+            </a>
+            <a href="Harmonogram.md"
+               summary="Harmonogram wydarzenia, wszystkie prelekcje, ich godziny rozpoczęcia i zakończenia, pomieszczenia, w których się odbywają, a także informacje o prelegentach.">📅
+                Harmonogram wydarzenia</a>
+            <a href="Partnerzy.md"
+               summary="Informacje o partnerach, którzy wspierają wydarzenie. W tym loga, oraz nazwy.">🤝 Partnerzy</a>
+            <a href="Patroni.md" summary="Informacje o patronach wydarzenia. W tym loga, oraz nazwy.">🍀 Patroni</a>
+            <a href="Kolor.md"
+               summary="W aplikacji można zmienić kolorystykę, dostosowując ją do aktualnego wydarzenia. Wszystkie kolory aplikacji są pochodne od głównego, skonfigurowanego koloru.">🟦
+                Kolor aplikacji</a>
+            <a href="Czas-zakończenia.md"
+               summary="Konfiguracja czasu zakończenia konkursu kodów QR. Po tym czasie uczestnicy nie będą mogli zdobywać punktów.">⏰
+                Czas końca konkursu kodów QR</a>
+            <a href="Prompt-instrukcji-asystenta.md"
+               summary="Wiadomość, która nadaje kontekst rozmowy asystentowi oraz udostępnia mu wszystkie informacje o wydarzeniu, z których może skorzystać podczas rozmowy.">✨
+                Prompt instrukcji asystenta</a>
+            <a href="Powiadomienia.md" summary="Powiadomienia, które będą wysyłane do użytkowników aplikacji.">🔔
+                Powiadomienia</a>
+            <a href="Mapy-wydarzenia.md" summary="Mapy wydarzenia dla parteru oraz piętra.">🗺️ Mapy wydarzenia</a>
+        </primary>
 
-<!--        <secondary>-->
-<!--            <title>Explore advanced features</title>-->
-<!--            <a href=""/>-->
-<!--            <a href="" summary="With a custom card summary"/>-->
-<!--            <a href="">Custom card title</a>-->
-<!--            <a href="" summary="With a custom card summary">Custom card title</a>-->
-<!--        </secondary>-->
+        <secondary>
+            <title>Informacje dodatkowe</title>
+            <a href="Wdrożenie-Gemini.md" summary="Gdzie i w jaki sposób jest wdrożony Gemini oraz jak go zmienić.">☁️
+                Wdrożenie Gemini</a>
+            <a href="Kod-źródłowy.md" summary="Jak uzyskać dostęp do kodu źródłowego.">📱 Kod źródłowy aplikacji</a>
+        </secondary>
 
-<!--        &lt;!&ndash;    Optionally add additional cards and links to topics that are not in this section but may be relevant.    &ndash;&gt;-->
-<!--        <misc>-->
-<!--            <cards>-->
-<!--                <title>Other relevant topics as wide cards</title>-->
-<!--                <a href=""/>-->
-<!--                <a href="" summary="With a custom card summary"/>-->
-<!--                <a href="">Custom card title</a>-->
-<!--                <a href="" summary="With a custom card summary">Custom card title</a>-->
-<!--            </cards>-->
-
-<!--            <cards narrow="true">-->
-<!--                <title>Other relevant topics as narrow cards</title>-->
-<!--                <a href=""/>-->
-<!--                <a href=""/>-->
-<!--                <a href="" summary="With a custom card summary"/>-->
-<!--                <a href="">Custom card title</a>-->
-<!--                <a href="">Custom card title</a>-->
-<!--                <a href="" summary="With a custom card summary">Custom card title</a>-->
-<!--            </cards>-->
-
-<!--            <links>-->
-<!--                <group>-->
-<!--                    <title>Other related topics as links</title>-->
-<!--                    <a href=""/>-->
-<!--                    <a href="" summary="With a custom card summary"/>-->
-<!--                    <a href="">Custom card title</a>-->
-<!--                    <a href="" summary="With a custom card summary">Custom card title</a>-->
-<!--                </group>-->
-<!--                <group>-->
-<!--                    <title>Two in a row</title>-->
-<!--                    <a href=""/>-->
-<!--                    <a href="" summary="With a custom card summary"/>-->
-<!--                    <a href="">Custom card title</a>-->
-<!--                    <a href="" summary="With a custom card summary">Custom card title</a>-->
-<!--                </group>-->
-<!--            </links>-->
-
-<!--            <links narrow="true">-->
-<!--                <group>-->
-<!--                    <title>More related topics</title>-->
-<!--                    <a href=""/>-->
-<!--                    <a href="" summary="With a custom card summary"/>-->
-<!--                    <a href="">Custom card title</a>-->
-<!--                    <a href="" summary="With a custom card summary">Custom card title</a>-->
-<!--                </group>-->
-<!--                <group>-->
-<!--                    <title>Three in a row</title>-->
-<!--                    <a href=""/>-->
-<!--                    <a href=""/>-->
-<!--                    <a href="">Custom card title</a>-->
-<!--                    <a href="">Custom card title</a>-->
-<!--                </group>-->
-<!--                <group>-->
-<!--                    <title>Each group is narrow</title>-->
-<!--                    <a href=""/>-->
-<!--                    <a href=""/>-->
-<!--                    <a href="">Custom card title</a>-->
-<!--                    <a href="">Custom card title</a>-->
-<!--                </group>-->
-<!--            </links>-->
-<!--        </misc>-->
     </section-starting-page>
 
 </topic>
