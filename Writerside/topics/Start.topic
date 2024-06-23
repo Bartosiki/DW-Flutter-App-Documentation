@@ -43,7 +43,7 @@
         </primary>
 
         <secondary>
-            <title>Informacje dodatkowe</title>
+            <title>Informacje developerskie</title>
             <a href="Wdrożenie-Gemini.md" summary="Gdzie i w jaki sposób jest wdrożony Gemini oraz jak go zmienić.">☁️
                 Wdrożenie Gemini</a>
             <a href="Kod-źródłowy.md" summary="Jak uzyskać dostęp do kodu źródłowego.">📱 Kod źródłowy aplikacji</a>

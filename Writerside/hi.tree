@@ -19,7 +19,7 @@
         <toc-element topic="Powiadomienia.md"/>
         <toc-element topic="Mapy-wydarzenia.md"/>
     </toc-element>
-    <toc-element topic="Informacje-dodatkowe.md">
+    <toc-element topic="Informacje-developerskie.md">
         <toc-element topic="Wdrożenie-Gemini.md"/>
         <toc-element topic="Kod-źródłowy.md"/>
     </toc-element>
