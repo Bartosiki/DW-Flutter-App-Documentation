@@ -12,8 +12,8 @@
         </description>
 
         <spotlight>
-            <a href="o-aplikacji.md" type="start" summary="Dowiedz się więcej o aplikacji">O aplikacji</a>
-            <a href="Konfiguracja-aplikacji.md" type="settings" summary="Sprawdź jak zacząć konfigurować aplikację">O
+            <a href="o-aplikacji.md" type="start" summary="Dowiedz się więcej o aplikacji.">O aplikacji</a>
+            <a href="Konfiguracja-aplikacji.md" type="settings" summary="Sprawdź jak zacząć konfigurować aplikację.">O
                 konfiguracji</a>
         </spotlight>
 
