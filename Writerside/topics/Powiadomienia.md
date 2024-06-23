@@ -18,6 +18,7 @@ Tworzenie powiadomień odbywa się poprzez zakładkę `Messaging` w panelu głó
 1.  Wybierz zakładkę `Messaging`. Po wybraniu zakładki powinien ukazać się taki widok.
     ![messeging-home.png](messeging-home.png)
     bądź taki w zależności czy istnieje już jakieś powiadomienie.
+    ![notifications-home.png](notifications-home.png)
 2.  Następnie wybierz opcję `Create your first campaign` albo `New campaign`
 3.  Z okna z wyborem wybierz `Firebase Notification message`
     ![notification-category.png](notification-category.png)
