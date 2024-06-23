@@ -12,13 +12,10 @@ Konfiguracja harmonogramu polega na dodawaniu kolejnych **zadan QR** do listy za
 
 | Pole        | Typ    | Przykład                               |
 |-------------|--------|----------------------------------------|
-| taskId      | number | 1 @TODO czy to jest potrzebne jeszcze? |
 | title       | string | Is it real?                            |
 | description | string | Find living green walls                |
 | points      | number | 15                                     |
 | qrCode      | string | a9de65861c92d54043f781c67be7f99f       |
-| imageSrc    | string | @TODO deprecated                       |
-
 
 
 ## Jak dodać zadanie?
