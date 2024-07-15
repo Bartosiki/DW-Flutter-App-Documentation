@@ -6,17 +6,37 @@ Cały proces połączenia aplikacji przebiega w taki sposób:
 
 <code-block lang="plantuml">
     @startuml
+    participant "Użytkownik" as user
     participant "Aplikacja DW" as app
     participant "Google Cloud Function" as fn
     participant "VertexAI na Google Cloud" as ai
-    app->fn : Request z historią czatu
+    participant "Baza danych Firebase" as db
+    activate user
+    user->app : Wysłanie wiadomości\nw konwersacji
+    activate app
+    app->fn : Żądanie z historią czatu\ni nową wiadomością
     activate fn
-    fn->ai : Request do Gemini\npoprzez VertexAI
+    alt Błąd uwierzytelniania Firebase
+    fn ---> app : Błąd uwierzytelniania
+    app ---> user : Wyświetlenie komunikatu\nbłędu w oknie konwersacji
+    end
+    fn->ai : Żądanie do Gemini\npoprzez VertexAI
     activate ai
-    return success
+    ai->db : Żądanie do bazy danych\no wiadomość konfiguracyjną
+    activate db
+    return Wiadomość konfiguracyjna
+    alt Błąd w procesie generacji wiadomości
+    ai--->fn : Błąd generacji
+    fn--->app : Błąd generacji
+    app--->user : Wyświetlenie komunikatu\nbłędu w oknie konwersacji
+    end
+    return Odpowiedź asystenta
     deactivate ai
-    fn --> app : success
+    fn --> app : Odpowiedź asystenta
     deactivate fn
+    app --> user : Wyświetlenie odpowiedzi\nw oknie konwersacji
+    deactivate app
+    deactivate user
     @enduml
 </code-block>
 
